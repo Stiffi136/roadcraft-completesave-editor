@@ -5,6 +5,7 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/roadcraft-completesave-editor/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
